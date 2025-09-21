@@ -26,7 +26,7 @@ def draw_polygon(t, sides,  length):
         t.forward(length)
         t.left(angle)
 
-## part 2
+# part 2
 def draw_pumpkin(t, x, y, radius):
     t.penup()
     t.goto(x, y)
